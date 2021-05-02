@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colour.css">
+    <title>Colour||Game</title>
+</head>
+<body>
+    <div><h2 class="text">Know Your Colours</h2></div>
+    <div id="container">
+        <div id="tools">
+            <button onclick="changeRed()">RED</button>
+            <button onclick="changeBlue()">BLUE</button>
+            <button onclick="changeYellow()">YELLOW</button>
+            <button onclick="changeGreen()">GREEN</button>
+        </div>
+        <div id="back"></div>   
+        <div id="tools">
+            <button onclick="changePink ()">PINK</button>
+            <button onclick="changeOrange ()">ORANGE</button> 
+            <button onclick="changeWhite ()">WHITE</button>
+            <button onclick="changeBrown()">BROWN</button>
+        </div> 
+    </div>
+    <script>
+        function changeRed(){
+            document.getElementById('back').style.backgroundColor ="red";
+        }
+        function changeBlue(){
+            document.getElementById('back').style.backgroundColor ="blue";
+        }
+        function changeYellow(){
+            document.getElementById('back').style.backgroundColor ="yellow";
+        }
+        function changeGreen(){
+            document.getElementById('back').style.backgroundColor ="green";
+        }
+        function changePink(){
+            document.getElementById('back').style.backgroundColor ="pink";
+        }
+        function changeOrange(){
+            document.getElementById('back').style.backgroundColor ="orange";
+        }
+        function changeWhite(){
+            document.getElementById('back').style.backgroundColor ="white";
+        }
+        function changeBrown(){
+            document.getElementById('back').style.backgroundColor ="brown";
+        }
+        </script>
+</body>
+</html>
