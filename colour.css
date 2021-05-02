@@ -1,3 +1,7 @@
+body{
+    background:#cac9c9
+}
+
 #container{
     width:1100px;
     height: 470px;
@@ -30,6 +34,4 @@ button{
     margin:5px;
     font-size: 30px;
 }
-body{
-    background:#cac9c9
-}
+
